@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>Newsletter Sign Up</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#712cf9">
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    
+<main class="form-signin w-100 m-auto">
+  <form action="/" method="post">
+    <img  class="mb-4" alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjRjQ0MzM2IiBkPSJNNSAxOGMuNyAwIDEuMyAwIDIgMCAwIDQuMSAwIDguMSAwIDEyLjItLjguMS0xLjYuMi0yLjMuMy0xLTIuNS0yLjctNi44LTIuNy02LjhTMiAyOCAyIDMwLjhjLjQgMC0uMiAwLTIgLjMgMC00LjMgMC04LjcgMC0xMyAuOCAwIDIgMCAyIDBsMyA3LjNDNSAyNS40IDUgMjAuOCA1IDE4ek0xNC43IDIwYzAtLjYgMC0xLjQgMC0yLTEuOSAwLTMuOCAwLTUuNyAwIDAgNCAwIDggMCAxMiAxLjktLjIgMy44LS40IDUuNy0uNiAwLS42IDAtMS40IDAtMi0xLjIuMS0yLjQuMS0zLjcuNCAwLTEuMSAwLTEuNyAwLTIuOC45IDAgMi4xIDAgMyAwIDAtLjYgMC0xLjQgMC0yLS45IDAtMi4xIDAtMyAwIDAtMS4xIDAtMS45IDAtM0MxMS42IDIwLjEgMTQuMiAyMC4xIDE0LjcgMjB6TTE2IDIwYy4xIDAgMS45IDAgMiAwIDAgMy4yIDAgNiAwIDkuMi43IDAgMS4zIDAgMi0uMSAwLTMuMiAwLTUuOSAwLTkuMS43IDAgMS4zIDAgMiAwIDAtLjYgMC0xLjQgMC0yLTIuMSAwLTMuOSAwLTYgMEMxNiAxOC42IDE2IDE5LjQgMTYgMjB6TTI4LjYgMThjLTEuOSAwLTMuNyAwLTUuNiAwIDAgMy44IDAgNy4yIDAgMTEgLjIgMCAuNCAwIC42IDAgLjQgMCAuOSAwIDEuNCAwIDAtMS42IDAtMi40IDAtNCAuMSAwIDIuNCAwIDIuNyAwIDAtLjYgMC0xLjQgMC0yLS4zIDAtMi42IDAtMi43IDAgMC0xIDAtMiAwLTMgLjIgMCAzLjEgMCAzLjYgMEMyOC42IDE5LjUgMjguNiAxOC42IDI4LjYgMTh6TTMyIDI3LjVjMC0zLjMgMC02LjIgMC05LjUtLjcgMC0xLjMgMC0yIDAgMCAzLjggMCA3LjQgMCAxMS4yIDEuOC4xIDMuNi4yIDUuNC40IDAtLjYgMC0xLjMgMC0xLjlDMzQuMyAyNy42IDMzLjEgMjcuNSAzMiAyNy41ek0zNyAyOS43Yy43LjEgMS4zLjEgMiAuMiAwLTQgMC03LjkgMC0xMS45LS43IDAtMS4zIDAtMiAwQzM3IDIyIDM3IDI1LjggMzcgMjkuN3pNNDUuNCAyNC4yYy45LTIgMS43LTQgMi42LTYuMS0uNyAwLTEuNSAwLTIuMiAwLS41IDEuMy0uOSAyLjItMS40IDMuNC0uNS0xLjMtLjgtMi4yLTEuMy0zLjQtLjcgMC0xLjUgMC0yLjIgMCAuOCAyIDEuNSA0IDIuNCA2LjEtLjkgMi0xLjcgNC0yLjYgNiAuNy4xIDEuNC4yIDIuMS4zLjUtMS4zIDEtMi4yIDEuNS0zLjUuNSAxLjQgMSAyLjQgMS41IDMuOC43LjEgMS42LjIgMi4zLjNDNDcuMSAyOC43IDQ2LjIgMjYuMyA0NS40IDI0LjJ6Ij48L3BhdGg+PC9zdmc+"/>    <h1 class="h3 mb-3 fw-normal">Sign Up to my Newsletter</h1>
+    <input type="text" class="top form-control" name="fName" id="floatingfirstname" placeholder="First Name">
+    <input type="text" class="middle form-control" name="lName" id="floatinglastname" placeholder="Last Name">
+    <input type="text" class=" bottom form-control" id="floatingEmail" name="email" placeholder="Enter Your email">
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted">&copy; Made by Mohamed Amine Ouertani</p>
+  </form>
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  </body>
+</html>
